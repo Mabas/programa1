@@ -18,6 +18,7 @@
 		0C305ECD170DEFE400FD9304 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C305EAA170DEFE300FD9304 /* Cocoa.framework */; };
 		0C305ED5170DEFE400FD9304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C305ED3170DEFE400FD9304 /* InfoPlist.strings */; };
 		0C305ED8170DEFE400FD9304 /* ProgrmasSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C305ED7170DEFE400FD9304 /* ProgrmasSOTests.m */; };
+		0C305EE3170DF21800FD9304 /* Nueva clase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C305EE2170DF21800FD9304 /* Nueva clase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0C305ED4170DEFE400FD9304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C305ED6170DEFE400FD9304 /* ProgrmasSOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgrmasSOTests.h; sourceTree = "<group>"; };
 		0C305ED7170DEFE400FD9304 /* ProgrmasSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgrmasSOTests.m; sourceTree = "<group>"; };
+		0C305EE1170DF21800FD9304 /* Nueva clase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nueva clase.h"; sourceTree = "<group>"; };
+		0C305EE2170DF21800FD9304 /* Nueva clase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Nueva clase.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				0C305EBF170DEFE400FD9304 /* MainMenu.xib */,
 				0C305EC2170DEFE400FD9304 /* ProgrmasSO.xcdatamodeld */,
 				0C305EB1170DEFE300FD9304 /* Supporting Files */,
+				0C305EE1170DF21800FD9304 /* Nueva clase.h */,
+				0C305EE2170DF21800FD9304 /* Nueva clase.m */,
 			);
 			path = ProgrmasSO;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				0C305EB7170DEFE300FD9304 /* main.m in Sources */,
 				0C305EBE170DEFE300FD9304 /* AppDelegate.m in Sources */,
 				0C305EC4170DEFE400FD9304 /* ProgrmasSO.xcdatamodeld in Sources */,
+				0C305EE3170DF21800FD9304 /* Nueva clase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
